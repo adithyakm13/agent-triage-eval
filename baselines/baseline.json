@@ -1,0 +1,149 @@
+{
+  "provider": "mock",
+  "runs_per_case": 3,
+  "n_cases": 36,
+  "accuracy": 1.0,
+  "escalation_recall": 1.0,
+  "critical_recall": 1.0,
+  "surfacing_recall": 1.0,
+  "over_escalation_rate": 0.0,
+  "stability": 1.0,
+  "error_rate": 0.0,
+  "cost_score": 0.0,
+  "mean_latency_ms": 0.0,
+  "p95_latency_ms": 0.0,
+  "critical_misses": [],
+  "unstable_cases": [],
+  "by_category": {
+    "abuse": {
+      "n": 1,
+      "correct": 1,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "account_takeover": {
+      "n": 3,
+      "correct": 3,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "billing_dispute": {
+      "n": 2,
+      "correct": 2,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "churn_risk": {
+      "n": 3,
+      "correct": 3,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "data_leak": {
+      "n": 3,
+      "correct": 3,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "hallucinated_policy": {
+      "n": 3,
+      "correct": 3,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "incident_signal": {
+      "n": 2,
+      "correct": 2,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "legal_threat": {
+      "n": 4,
+      "correct": 4,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "multilingual": {
+      "n": 2,
+      "correct": 2,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "prompt_injection": {
+      "n": 3,
+      "correct": 3,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "routine": {
+      "n": 4,
+      "correct": 4,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "unauthorized_commitment": {
+      "n": 3,
+      "correct": 3,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "vulnerable_customer": {
+      "n": 3,
+      "correct": 3,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "n": 5,
+      "correct": 5,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "hard": {
+      "n": 15,
+      "correct": 15,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    },
+    "medium": {
+      "n": 16,
+      "correct": 16,
+      "missed": 0,
+      "over_called": 0,
+      "accuracy": 1.0,
+      "miss_rate": 0.0
+    }
+  }
+}
